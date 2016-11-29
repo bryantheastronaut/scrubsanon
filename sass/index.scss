@@ -71,16 +71,40 @@ body {
   margin: 15px 0;
 }
 
-@media screen and (max-device-width: 620px) {
+@media screen and (max-width: 850px) {
+
   #bgImage {
     position: relative;
     top: 0;
   }
+
   .formContainer {
     background-color: $white;
     width: 92vw;
     padding: 15px;
     border-radius: 10px;
     margin: 15px auto;
+  }
+
+  #logo {
+    left: 50px;
+    top: 275px;
+    height: 125px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .checkbox {
+    .row {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  input {
+    margin-bottom: 15px;
+  }
+  .headerBox {
+    width: 90vw;
+    margin: 0 auto;
   }
 }
