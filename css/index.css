@@ -75,5 +75,16 @@ body {
   input {
     margin-bottom: 15px; }
   .headerBox {
-    width: 90vw;
-    margin: 0 auto; } }
+    width: 100vw;
+    margin: 0 auto; }
+  .headerText {
+    color: #fafafa;
+    text-align: center; }
+  .headerText:nth-child(3) {
+    margin-left: 0; }
+  .cursive {
+    font-size: 7.5rem;
+    position: static;
+    text-align: center;
+    margin-top: -15px;
+    color: #333333; } }
